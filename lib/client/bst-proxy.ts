@@ -12,7 +12,7 @@ export enum ProxyType {
     LAMBDA
 }
 
-const DefaultLambdaPort = 10000;
+const DefaultLambdaPort = process.env.PORT;
 
 /**
  * Exposes the BST proxy command for use.
